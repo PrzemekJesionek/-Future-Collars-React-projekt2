@@ -8,7 +8,7 @@ const Header = () => {
             </div>
             <div className="logo-text">
                 <h1>Kalkulator walut</h1>
-                <p>Podaj wartość i wybierz walutę a kalkulator przeliczy jej równowartość na podstawie akutalnych kursów!
+                <p>Podaj wartość i wybierz walutę a kalkulator przeliczy jej równowartość na podstawie akutalnych kursów!!!
             </p>
             </div>
         </div>

@@ -18,7 +18,7 @@ class Main extends React.Component {
         const { inputValue } = this.state;
         if (inputValue > 0) {
             axios
-                .get(`http://api.nbp.pl/api/exchanagerates/rates/A/${this.state.currentCurrency}/`)
+                .get(`http://api.nbp.pl/api/exchangerates/rates/a/${this.state.currentCurrency}/`)
                 .then(response => {
                     this.setState({
                         result: "To " + (response.data.rates[0].mid * inputValue).toFixed(2) + " PLN"
